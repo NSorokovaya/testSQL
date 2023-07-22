@@ -1,0 +1,5 @@
+--USE SE_M_SEENU_5121842_0117;
+
+DELETE TOP (200)
+FROM Contact
+WHERE Name LIKE 'Sample data%';
