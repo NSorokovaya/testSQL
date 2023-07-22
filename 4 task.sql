@@ -1,0 +1,5 @@
+USE SE_M_SEENU_5121842_0117;
+
+SELECT *
+FROM Contact
+WHERE Name LIKE 'iri%';

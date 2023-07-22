@@ -1,0 +1,6 @@
+USE SE_M_SEENU_5121842_0117;
+
+SELECT Name, MAX(Age) AS MaxAge
+FROM Contact
+GROUP BY Name
+HAVING MAX(Age) < 25;
